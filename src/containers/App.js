@@ -26,8 +26,6 @@ class App extends Component {
   render() {
 
     const { planets } = this.state;
-    console.log(planets);
-    console.log(planets.length);
 
     if (planets.length === 0) {
       return <h1>Loading</h1>
